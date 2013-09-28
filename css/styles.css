@@ -12,5 +12,7 @@
 	padding: 25px;
 	background-color: rgba(204, 204, 204, .6);
 	width: 100%;
+	-webkit-transition: opacity .5s ease-out;
+	-moz-transition: opacity .5s ease-out;
 }
  
