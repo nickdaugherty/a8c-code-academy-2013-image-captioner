@@ -28,7 +28,7 @@ add_action( 'init', 'image_captioner' );
 
 function image_captioner() {
 	if ( has_caption() ) 
-		wp_enqueue_style();
+		wp_enqueue_style( 'image_captioner_style', plugins_url( 'a8c-code-academy-2013-image-captioner/css/styles.css' ) );
 		
 }
 
