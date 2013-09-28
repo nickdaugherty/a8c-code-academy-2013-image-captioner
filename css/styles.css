@@ -1,6 +1,9 @@
 .wp-caption {
 	position: relative;
 }
+.wp-caption:hover .wp-caption-text {
+	opacity: 1
+}
 
 .wp-caption-text {
 	position: absolute;
@@ -10,7 +13,4 @@
 	background-color: rgba(204, 204, 204, .6);
 	width: 100%;
 }
-.wp-caption-text:hover {
-opacity: 1
-
-}
+ 
