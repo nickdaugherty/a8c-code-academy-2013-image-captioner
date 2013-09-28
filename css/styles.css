@@ -5,4 +5,7 @@
 .wp-caption-text {
 	position: absolute;
 	top: 0;
+	padding: 25px;
+	background-color: rgba(204, 204, 204, .6);
+	width: 100%;
 }
