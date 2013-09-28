@@ -24,8 +24,16 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-add_action( 'init', 'image_captioner');
+add_action( 'init', 'image_captioner' );
 
 function image_captioner() {
-	
+	if ( has_caption() ) 
+		wp_enqueue_style();
+		
+}
+
+function has_caption() {
+	// Determine if there is any post with a caption
+
+	return true;
 }
